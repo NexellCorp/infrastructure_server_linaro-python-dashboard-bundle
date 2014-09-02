@@ -1,0 +1,9 @@
+include linaro_dashboard_bundle/schemas/*.json
+include linaro_dashboard_bundle/test_documents/*.json
+include doc/conf.py
+recursive-include doc *.rst
+include .testr.conf
+include COPYING
+include INSTALL
+include doc/Makefile
+
